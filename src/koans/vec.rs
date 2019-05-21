@@ -171,6 +171,7 @@ fn reverse_vecs() {
 #[test]
 fn trading_spaces() {
     let mut vector = vec![false, true];
+    vector.swap(0, 1);
     assert_eq!(vector.first(), Some(&true));
 }
 
